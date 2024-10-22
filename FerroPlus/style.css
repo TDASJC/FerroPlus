@@ -1,0 +1,36 @@
+:root {
+    --verde-principal: lightgreen;
+    --ciano-secundaria: cyan;
+    --botao-amarelo: gold;
+    --cor-de-fundo: orange;
+}
+body {
+    background-color: var(--cor-de-fundo);
+    color: var(--verde-principal);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.principal  {
+    background-image: url(Fnaf_Movie_Poster.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+}
+.conteiner {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.conteiner__botao {
+    background-color: var(--botao-amarelo);
+    border-radius: 5px;
+    color: var(--botao-amarelo);
+    display: block;
+}
+.botao_secundario {
+    background-color: blue;
+    border: 2px solid var(--ciano-secundaria);
+}
